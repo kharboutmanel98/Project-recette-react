@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from "./Footer.module.scss"
 
 const Footer = () => {
   return (
-    <div className='b2'>Footer</div>
+    <div className= "d-flex flex-row align-item">
+      
+    </div>
   )
 }
 
