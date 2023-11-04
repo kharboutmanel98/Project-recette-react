@@ -1,13 +1,14 @@
 
 import styles from "./Recipe.module.scss"
-import couscous from "../assests/images/couscous.jfif"
-const Recipe = () => {
+function Recipe({title, image})  {
   return (
     <div className={styles.recipe}>
     <div className={styles.imageContainer}>
-        <img src={couscous} alt="recipe" />
+        <img src={image} alt="recipe" />
         <div className={`${styles.recipeTitle} d-flex flex-row align-items-center justify-content-center`}>
-            <h3>Couscous Viande</h3>
+            <h3>
+              {title}
+            </h3>
         </div>
     </div>
     </div>

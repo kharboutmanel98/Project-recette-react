@@ -1,6 +1,6 @@
 
 import styles from "./Header.module.scss";
-import recette from "../assests/images/logo.png";
+import recette from "../assets/images/logo.png";
 
 const Header = () => {
   return (
