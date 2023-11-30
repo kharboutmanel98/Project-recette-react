@@ -1,4 +1,4 @@
-import styles from "./Recipe.module.scss";
+import styles from "../Recipe.module.scss";
 import { useState } from "react";
 
 
