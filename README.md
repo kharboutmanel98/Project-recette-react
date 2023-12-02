@@ -1,3 +1,2 @@
-
-# send articles # fetch with url and stringify()
-# Management loading # add icon loader #add style loader
+# loading articles with useEffect() :used in api for unique use
+# pagination with skip and limit 
